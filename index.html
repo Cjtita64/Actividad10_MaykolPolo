@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Desarrollo Web - Maykol Polo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23e9ecef' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.99-7.5L28 15v19L13.99 41.5 0 34V15z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            color: #495057;
+        }
+
+        header {
+            background: linear-gradient(135deg, #007bff 0%, #00d4ff 100%);
+            color: #ffffff;
+            padding: 25px 50px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 15px rgba(0, 123, 255, 0.2);
+        }
+        
+        .header-info {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-img {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            border: 3px solid #ffffff;
+            object-fit: cover;
+            margin-right: 25px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .header-text h1 {
+            font-size: 2.2em;
+            font-weight: 600;
+            margin: 0;
+            line-height: 1.1;
+        }
+        
+        .header-text p {
+            margin: 5px 0 0;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+        
+        h2 {
+            font-size: 1.8em;
+            font-weight: 600;
+            color: #343a40;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+
+        .file-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .file-list li a {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background-color: #ffffff;
+            color: #495057;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: 500;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .file-list li a .fa-solid {
+            margin-right: 15px;
+            color: #007bff;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-info">
+            <img src="img/logo-IESTP.png" alt="Logo Institución" class="logo-img">
+            
+            <div class="header-text">
+                <h1>Actividad 10</h1>
+                <p>Curso: Desarrollo Web | Estudiante: Maykol Alberto Polo Ambrosio</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Archivos Propuestos</h2>
+        <ul class="file-list">
+            <li><a href="actividad1.html" target="_blank"><i class="fa-solid fa-file-code"></i>Actividad 1</a></li>
+            <li><a href="Actividad2.html" target="_blank"><i class="fa-solid fa-file-code"></i>Actividad 2</a></li>
+            <li><a href="Actividad3.html" target="_blank"><i class="fa-solid fa-file-code"></i>Actividad 3</a></li>
+            <li><a href="Actividad4.html" target="_blank"><i class="fa-solid fa-file-code"></i>Actividad 4</a></li>
+            <li><a href="Actividad5.html" target="_blank"><i class="fa-solid fa-file-code"></i>Actividad 5</a></li>
+            <li><a href="actividad6.html" target="_blank"><i class="fa-solid fa-file-code"></i>Actividad 6</a></li>
+        </ul>
+
+        <h2>Páginas Resueltas</h2>
+        <ul class="file-list">
+            <li><a href="carta.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Carta</a></li>
+            <li><a href="pagina01.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Página 01</a></li>
+            <li><a href="pagina02.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Página 02</a></li>
+            <li><a href="pagina03.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Página 03</a></li>
+            <li><a href="pagina04.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Página 04</a></li>
+            <li><a href="pagina05.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Página 05</a></li>
+            <li><a href="pagina06.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Página 06</a></li>
+            <li><a href="pagina07.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Página 07</a></li>
+            <li><a href="pagina08.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Página 08</a></li>
+            <li><a href="pagina09.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Página 09</a></li>
+            <li><a href="pagina10.html" target="_blank"><i class="fa-solid fa-file-lines"></i>Página 10</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>

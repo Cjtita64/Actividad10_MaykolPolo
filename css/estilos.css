@@ -1,0 +1,44 @@
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    margin: 18px;
+    padding: 8px;
+    width: 240px;
+    height: 300px;
+    border: 3px solid blue;
+    overflow: hidden; /* Requerido para manejar el texto excedente */
+}
+
+#div1 {
+    text-overflow: ellipsis; /* Muestra "..." si el texto se desborda en una línea */
+    line-height: 105%;
+}
+
+#div1 .highlight {
+    font-size: 18px;
+    text-shadow: 2px 2px 0 red; /* Sombra sólida roja, desplazada a la derecha y abajo */
+}
+
+#div2 {
+    text-overflow: clip; /* Corta el texto sin mostrar "..." */
+    line-height: 110%;
+}
+
+#div2 .highlight {
+    font-size: 18px;
+    text-shadow: -2px 2px 0 blue; /* Sombra sólida azul, desplazada a la izquierda y abajo */
+}
+
+#div3 {
+    text-align: justify;
+    color: #8B4513;
+    line-height: 120%;
+}
+
+#div3 .highlight {
+    font-size: 18px;
+    text-shadow: 2px 2px 5px green; /* Sombra verde con difuminado (efecto vapor) */
+}
